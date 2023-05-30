@@ -1,0 +1,27 @@
+استخدمنا مكتبة اسمها 
+lightgallery libirary
+دخلت على المكتبة عن طريق 
+lightgallery libirary cdn
+واخدن اللينكات الاتية
+css link
+    <!-- LightGallery CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/css/lightgallery.min.css"/>
+
+js links
+   <!-- Light Gallery Libirary -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.1/lightgallery.min.js"></script>
+
+    <!-- Jquery Cdn -->
+    <script
+  src="https://code.jquery.com/jquery-migrate-3.4.1.min.js"
+  integrity="sha256-UnTxHm+zKuDPLfufgEMnKGXDl6fEIjtM+n1Q6lL73ok="
+  crossorigin="anonymous"></script>
+ثم كتبت الكود الخاص بالمكتبة فى اخر صفحة الhtml
+هكذا
+<script>
+        lightGallery(document.querySelector(".projects .container"));
+     </script>
+
+.projects
+.container
+دول الكلاسات الخاصة بالسيكشن فى المشروع دا وبتختلف اسماء الكلاسات دى من مشروع للتانى
